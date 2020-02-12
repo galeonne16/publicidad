@@ -8,7 +8,8 @@ import { YouknowComponent } from './pages/youknow/youknow.component';
 const routes: Routes = [
   { path: 'camaras', component: CamarasComponent },
   { path: 'publicidad', component: PublicidadComponent },
-  { path: 'youknow', component: YouknowComponent }
+  { path: 'youknow', component: YouknowComponent },
+  { path: '', redirectTo: '/camaras', pathMatch: 'full' }
 ];
 
 @NgModule({
